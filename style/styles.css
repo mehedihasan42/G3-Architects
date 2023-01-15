@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lato:ital@0;1&family=Montserrat:wght@100&family=PT+Serif:ital,wght@1,700&family=Playfair+Display:wght@500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+/*------------
+    header
+ ------------ */
+.header {
+  background: rgba(255, 144, 14, 0.1);
+  padding-bottom: 50px;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+}
+.nav h2 {
+  font-size: 40px;
+  color: #131313;
+  font-weight: 700;
+  margin-top: 20px;
+}
+span{
+  color: #ff900e;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.list-item li {
+  padding: 15px;
+}
+.banner {
+  text-align: center;
+}
+.banner h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 75px;
+  color: #131313;
+  padding: 0 400px;
+}
+.banner p {
+  color: #727272;
+  padding: 30px 350px;
+}
+.banner button {
+  margin-bottom: 30px;
+}
+.btn-primary {
+  background: #ff900e;
+  width: 150px;
+  height: 44px;
+  border-radius: 7px;
+  border-color: #ff900e;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+}
+.banner img {
+  width: 1000px;
+  height: 500px;
+}
+/*---------------
+   main section 
+ ---------------*/
+main {
+  padding: 50px 0;
+}
+.quick-list .image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.quick-list .box {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.quick-list .paragraph {
+  margin: 100px 201px 0 70px;
+}
+.quick-list .paragraph span{
+  color: #ff900e;
+}
+.quick-list img {
+  height: 200px;
+  width: 300px;
+}
+.quick-list h3 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 10px;
+}
+.quick-list p {
+  margin-bottom: 10px;
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.love-enjoy {
+  padding: 100px 200px 10px;
+}
+.love-enjoy .container {
+  margin-left: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.love-enjoy .contain {
+  display: flex;
+  flex-direction: column;
+}
+.love-enjoy .box {
+  height: 100px;
+  width: 280px;
+  background-color: red;
+  color: #131313;
+  margin-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 9px;
+  padding: 20px;
+}
+.love-enjoy .box p {
+  color: #727272;
+  font-weight: 400;
+  font-size: 14px;
+}
+.love-enjoy .box h5 {
+  color: #131313;
+  font-weight: 600;
+  font-size: 16px;
+}
+.love-enjoy .heading {
+  color: #131313;
+  margin-bottom: 30px;
+  width: 300px;
+}
+.love-enjoy .heading p{
+  color: #727272;
+}
+.love-enjoy .heading h3 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.love-enjoy img {
+  width: 450px;
+  height: 650px;
+}
+.btn-primary-2 {
+  background: #ff900e;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 100px;
+  border-radius: 7px;
+  border-color: #ff900e;
+  color: #ffffff;
+  margin-left: 500px;
+  position: absolute;
+  top: 2200px;
+  left: 200px;
+}
+
+.btn-primary-2 span {
+  font-size: 35px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/*-------------
+   Some Facts 
+ -------------*/
+.facts .container {
+  padding: 50px;
+}
+.facts .boxs {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+
+.facts .box {
+  height: 150px;
+  width: 150px;
+  border: 2px solid #ff900e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  margin-top: 80px;
+}
+.facts .box:hover{
+  background-color: #ff900e;
+  color: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.facts h3 {
+  color: #131313;
+  font-weight: 700;
+  font-size: 35px;
+  padding: 20px 0;
+}
+.facts .paragraph p {
+  color: #727272;
+  font-size: 16px;
+  padding-bottom: 20px;
+  width: 550px;
+}
+.facts .box h4 {
+  color: #424242;
+  font-weight: 600;
+  font-size: 25px;
+}
+.facts .box p {
+  color: #727272;
+  font-weight: 600;
+  font-size: 15px;
+}
+/*-----------------
+    Our Sponspors 
+ ------------------*/
+.sponspors {
+  margin-top: 80px;
+}
+.sponspors h3 {
+  text-align: center;
+  color: #131313;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+.sponspors p {
+  width: 500px;
+  margin: 0 0 60px 450px;
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+}
+.sponspors img {
+  width: 100px;
+  height: 30px;
+}
+.sponspors .icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team img{
+  width: 200px;
+  height: 200px;
+}
+.team .img{
+  display: flex;
+ justify-content: space-evenly;
+}
+/* ----------
+    team
+ -----------*/
+.team{
+  margin: 100px 0;
+  background-color: #e9e9e2;
+  padding: 50px;
+}
+.team h3{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.team p{
+  text-align: center;
+  font-size: 15px;
+  width: 600px;
+  margin: 0 0 50px 400px;
+
+}
+.footer {
+  background-color: bisque;
+  width: 100%;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #424242;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 70px auto;
+  width: 80%;
+  border-radius: 7px;
+}
+
+@media screen and (max-width:576px) {
+  .header{
+    background-color: #ffffff;
+  }
+  .banner h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 55px;
+    color: #131313;
+   
+  }
+  .banner p {
+    padding: 5px 0;
+    margin-left: 250px;
+    font-size: 25px;
+    width: 100%;
+  }
+  .quick-list .box {
+    display: grid;
+   grid-template-columns: repeat(1,1fr);
+    margin-left: 20px;
+  }
+  .quick-list .paragraph {
+    margin-left: 150px;
+    padding: 0;
+    width: 100%;
+  }
+  .quick-list .paragraph p{
+    font-size: 30px;
+    font-weight: 200;
+  }
+  .love-enjoy .container {
+    margin-left: 30px;
+    display: grid;
+   grid-template-columns: repeat(1,1fr);
+  }
+  .love-enjoy .box {
+    height: 200px;
+    width: 480px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+  .love-enjoy .box p {
+    font-weight: 300;
+    font-size: 24px;
+  }
+  .love-enjoy .box h5{
+    font-size: 40px;
+  }
+  .facts .boxs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 30px;
+  }
+  .facts .box{
+    height: 300px;
+    width: 250px;
+  }
+  .nav .list-item{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 600px;
+    font-size: 50px;
+  }
+  .team{
+    margin: 30px 0;
+    padding: 20px;
+  }
+  .team .img{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
